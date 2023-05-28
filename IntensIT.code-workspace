@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../IntensIT"
+		},
+		{
+			"path": "../../../../iphone-maket"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "iphone-maket"
+	}
+}

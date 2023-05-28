@@ -1,0 +1,27 @@
+.field {
+  width: 290px;
+  margin-bottom: 16px;
+  position: relative;
+  font-size: 16px;
+
+  &--error {
+    .field__input {
+      border-color: $error;
+    }
+  }
+
+  &__input {
+    width: 100%;
+    height: 56px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    padding: 16px;
+  }
+  &__error {
+    margin: 8px 0;
+    color: $error;
+  }
+}
